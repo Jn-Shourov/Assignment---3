@@ -14,6 +14,14 @@
     rel="stylesheet">
   <!-- Colors -->
   <style>
+    body {
+      font-family: "Sora", serif;
+    }
+
+    .font-ADLaM-Display {
+      font-family: "ADLaM Display", serif;
+    }
+
     :root {
       --primary-a: #ffdc26;
       --primary-b: #f9df8a;
@@ -25,10 +33,40 @@
 </head>
 
 <body>
-  <header>
+  <header class="bg-[var(--secondary)]">
+    <nav
+      class="max-w-[1320px] mx-auto px-4 sm:px-0 py-3 sm:py-7 border-solid border-b border-b-black sm:border-none  flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <img src="assets/logo-header.png" alt="site logo header">
+        <h1 class="hidden sm:inline text-2xl">Browse<span class="text-[var(--primary-a)]">4</span>Pets</h1>
+      </div>
 
+      <ul class="hidden sm:flex sm:gap-8 text-xl">
+        <li><a href="#">Find a pet</a></li>
+        <li><a href="#">Breeds</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+
+      <div class="hidden sm:flex sm:items-center sm:gap-4">
+        <img class="w-6 h-6" src="assets/bell.png" alt="notification icon">
+        <img class="w-6 h-6" src="assets/search.png" alt="search icon">
+        <div class="space-x-3 text-xl">
+          <button class="py-2.5 px-8.5 rounded-lg border border-[var(--primary-a)]">Login</button>
+          <button class="py-2.5 px-8.5 rounded-lg bg-[var(--primary-a)]">Register</button>
+        </div>
+      </div>
+
+      <div class="sm:hidden">
+        <img src="assets/menu.png" alt="hamburger menu icon">
+      </div>
+    </nav>
   </header>
+  <main>
 
+  </main>
+  <footer>
+
+  </footer>
 </body>
 
 </html>
