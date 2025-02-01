@@ -24,6 +24,7 @@
 
     :root {
       --primary-a: #ffdc26;
+      --primary-a-50: rgba(255, 220, 38, 0.5);
       --primary-b: #f9df8a;
       --secondary: #fff9f4;
       --gradient-a: #f8ccfb;
@@ -377,8 +378,52 @@
       </div>
     </article>
   </main>
-  <footer>
+  <footer class="bg-[var(--primary-a-50)] mt-[326px] sm:mt-[405px] pt-[366px] pb-14 sm:pb-35">
 
+    <div class="max-w-[1320px] mx-auto px-4 sm:px-0 flex flex-col gap-9 sm:flex-row sm:justify-between sm:items-end">
+
+      <!-- left part -->
+      <div class="max-w-[426px]">
+        <div class="flex items-center gap-2 sm:gap-3">
+          <img class="size-9 sm:size-12" src="assets/logo-footer.png" alt="site logo">
+          <h1 class="text-xl sm:text-2xl">
+            Browse<span class="text-[var(--primary-a)]">4</span>Pets
+          </h1>
+        </div>
+        <p class="text-base sm:text-xl mt-4 sm:mt-6 text-gray-600">
+          Discover a world of treats, toys, and essentials handpicked for your furry friends!
+        </p>
+      </div>
+
+      <!-- menu part -->
+      <ul class="text-base sm:text-xl space-y-5 sm:space-y-8">
+        <li><a href="#">Find a pet</a></li>
+        <li><a href="#">Breeds</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+
+      <!-- social links part -->
+      <div class="space-y-3 sm:space-y-4">
+        <p class="sm:text-base text-sm">
+          Follow Us
+        </p>
+        <div class="flex gap-7 items-center">
+          <div>
+            <img src="assets/social logo/facebook.png" alt="facebook logo">
+          </div>
+          <div>
+            <img src="assets/social logo/instagram.png" alt="instagram logo">
+          </div>
+          <div>
+            <img src="assets/social logo/linkedin.png" alt="linkedin logo">
+          </div>
+          <div>
+            <img src="assets/social logo/youtube.png" alt="youtube logo">
+          </div>
+        </div>
+      </div>
+
+    </div>
   </footer>
 </body>
 
